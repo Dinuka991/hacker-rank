@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="014ebea7-c565-4556-831d-247565c05b8b" name="Changes" comment="CamelCAse  solution">
-      <change afterPath="$PROJECT_DIR$/src/sorrting/MinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorrting/MinMax.txt" afterDir="false" />
+    <list default="true" id="014ebea7-c565-4556-831d-247565c05b8b" name="Changes" comment="MinMax solution">
+      <change afterPath="$PROJECT_DIR$/src/arrays/SparseArrays" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/SparseArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorrting/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorrting/MinMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MinMax">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="CamelCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.CamelCase" />
       <module name="HackerRank" />
@@ -92,8 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Solution" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MinMax" />
         <item itemvalue="Application.CamelCase" />
         <item itemvalue="Application.Main" />
@@ -116,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707058585719</updated>
       <workItem from="1707058587185" duration="4901000" />
-      <workItem from="1707087453090" duration="4946000" />
+      <workItem from="1707087453090" duration="8307000" />
     </task>
     <task id="LOCAL-00001" summary="init hackerRank">
       <option name="closed" value="true" />
@@ -142,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707088072925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="MinMax solution">
+      <option name="closed" value="true" />
+      <created>1707113226553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707113226553</updated>
+    </task>
+    <task id="LOCAL-00005" summary="MinMax solution">
+      <option name="closed" value="true" />
+      <created>1707113237742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707113237742</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +193,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init hackerRank" />
     <MESSAGE value="CamelCAse  solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="CamelCAse  solution" />
+    <MESSAGE value="MinMax solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="MinMax solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

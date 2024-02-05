@@ -37,37 +37,6 @@ public class MinMax {
         System.out.println(min + " "  +max);
     }
 
-    /**
-     *   public static void minMaxSum(List<Integer> arr) {
-     *         arr.sort(Integer::compareTo);
-     *         long minSum = 0;
-     *         for (int i = 0; i < 4; i++) {
-     *             minSum += arr.get(i);
-     *         }
-     *
-     *         arr.sort((a, b) -> b - a);
-     *         long maxSum = 0;
-     *         for (int i = 0; i < 4; i++) {
-     *             maxSum += arr.get(i);
-     *         }
-     *
-     *         System.out.println(minSum + " " + maxSum);
-     *     }
-     *
-     *      public static void minMaxSum(List<Integer> arr) {
-     *         long minSum = arr.stream().sorted().limit(4).collect(Collectors.summingInt(Integer::intValue));
-     *         long maxSum = arr.stream().sorted((a, b) -> Integer.compare(b, a)).limit(4).collect(Collectors.summingInt(Integer::intValue));
-     *
-     *         System.out.println(minSum + " " + maxSum);
-     *     }
-     *
-     *     public static void minMaxSum(List<Integer> arr) {
-     *         IntSummaryStatistics stats = arr.stream().mapToInt(Integer::intValue).sorted().limit(4).summaryStatistics();
-     *         System.out.println(stats.getMin() + " " + stats.getMax());
-     *     }
-     */
-
-
 }
 
 
