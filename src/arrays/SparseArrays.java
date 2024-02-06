@@ -73,4 +73,16 @@ class Result {
         bufferedReader.close();
         bufferedWriter.close();
     }
-}
+
+     private static List<String> getStrings(int stringsCount, BufferedReader bufferedReader) {
+         List<String> strings = IntStream.range(0, stringsCount).mapToObj(i -> {
+                     try {
+                         return bufferedReader.readLine();
+                     } catch (IOException ex) {
+                         throw new RuntimeException(ex);
+                     }
+                 })
+                 .collect(toList());
+         return strings;
+     }
+ }
