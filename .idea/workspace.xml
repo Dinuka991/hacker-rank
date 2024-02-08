@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="014ebea7-c565-4556-831d-247565c05b8b" name="Changes" comment="Sparse Arrays">
-      <change afterPath="$PROJECT_DIR$/src/collections/LonelyInteger.java" afterDir="false" />
+    <list default="true" id="014ebea7-c565-4556-831d-247565c05b8b" name="Changes" comment="LonelyInteger">
+      <change afterPath="$PROJECT_DIR$/src/simple/DiagnolDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple/FlippingBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/SparseArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/SparseArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CamelCase.executor": "Run",
+    "Application.DiagnolDifference.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MinMax.executor": "Run",
     "Application.Result.executor": "Run",
@@ -61,13 +62,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Result">
-    <configuration name="CamelCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.CamelCase" />
+  <component name="RunManager" selected="Application.DiagnolDifference">
+    <configuration name="DiagnolDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simple.DiagnolDifference" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiagnolDifference" />
         <item itemvalue="Application.Result" />
         <item itemvalue="Application.collections.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MinMax" />
-        <item itemvalue="Application.CamelCase" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +155,7 @@
       <updated>1707058585719</updated>
       <workItem from="1707058587185" duration="4901000" />
       <workItem from="1707087453090" duration="9203000" />
-      <workItem from="1707171108153" duration="3083000" />
+      <workItem from="1707171108153" duration="15655000" />
     </task>
     <task id="LOCAL-00001" summary="init hackerRank">
       <option name="closed" value="true" />
@@ -204,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707169564684</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LonelyInteger">
+      <option name="closed" value="true" />
+      <created>1707227204858</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707227204858</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +235,8 @@
     <MESSAGE value="CamelCAse  solution" />
     <MESSAGE value="MinMax solution" />
     <MESSAGE value="Sparse Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sparse Arrays" />
+    <MESSAGE value="LonelyInteger" />
+    <option name="LAST_COMMIT_MESSAGE" value="LonelyInteger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,6 +245,15 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/simple/DiagnolDifference.java</url>
+          <line>9</line>
+          <properties class="simple.DiagnolDifference" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
