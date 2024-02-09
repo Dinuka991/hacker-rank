@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="014ebea7-c565-4556-831d-247565c05b8b" name="Changes" comment="LonelyInteger">
-      <change afterPath="$PROJECT_DIR$/src/simple/DiagnolDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simple/FlippingBits.java" afterDir="false" />
+    <list default="true" id="014ebea7-c565-4556-831d-247565c05b8b" name="Changes" comment="Diagonal Difference">
+      <change afterPath="$PROJECT_DIR$/src/string/Pangrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "contexts": [
+    {
+      "name": "minikube",
+      "originalNamespace": "default"
+    }
+  ],
+  "isMigrated": true
+}]]></component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="minikube" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -44,6 +55,7 @@
     "Application.DiagnolDifference.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MinMax.executor": "Run",
+    "Application.Pangrams.executor": "Run",
     "Application.Result.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.collections.Solution.executor": "Run",
@@ -62,7 +74,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DiagnolDifference">
+  <component name="RunManager" selected="Application.Pangrams">
     <configuration name="DiagnolDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simple.DiagnolDifference" />
       <module name="HackerRank" />
@@ -76,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorrting.MinMax" />
+    <configuration name="Pangrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Pangrams" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorrting.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pangrams" />
         <item itemvalue="Application.DiagnolDifference" />
         <item itemvalue="Application.Result" />
         <item itemvalue="Application.collections.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.MinMax" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +167,7 @@
       <updated>1707058585719</updated>
       <workItem from="1707058587185" duration="4901000" />
       <workItem from="1707087453090" duration="9203000" />
-      <workItem from="1707171108153" duration="15655000" />
+      <workItem from="1707171108153" duration="21735000" />
     </task>
     <task id="LOCAL-00001" summary="init hackerRank">
       <option name="closed" value="true" />
@@ -213,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707227204858</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Diagonal Difference">
+      <option name="closed" value="true" />
+      <created>1707401534359</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707401534359</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +256,8 @@
     <MESSAGE value="MinMax solution" />
     <MESSAGE value="Sparse Arrays" />
     <MESSAGE value="LonelyInteger" />
-    <option name="LAST_COMMIT_MESSAGE" value="LonelyInteger" />
+    <MESSAGE value="Diagonal Difference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diagonal Difference" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
